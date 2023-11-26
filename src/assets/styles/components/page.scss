@@ -1,11 +1,12 @@
 .page {
+  position: relative;
   width: 100%;
   height: 100vh;
   font-family: "Celaraz", serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-style: normal;
-  font-size: 40px;
+  font-size: 30px;
   background: linear-gradient(
       rgba(135, 60, 255, 0.4),
       rgba(135, 60, 255, 0) 80%

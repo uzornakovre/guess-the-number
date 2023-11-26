@@ -8,6 +8,36 @@
     <title>Угадай число</title>
   </head>
   <body class="page">
-    test test test test
+    <main class="content">
+      <h1 class="title">Игра "Отгадай число"</h1>
+      <form class="range range_active">
+        <label class="range__label" for="range">Выбери диапазон:</label>
+        <input
+          class="range__input"
+          type="range"
+          min="100"
+          max="1000"
+          step="100"
+          id="range"
+        />
+        <p class="range__value">100</p>
+        <button class="range__submit button" type="submit">Начать игру!</button>
+      </form>
+      <form class="answer">
+        <label class="answer__label" for="answer">Твой ответ:</label>
+        <input class="answer__input" type="number" max="1000" id="answer" />
+        <button class="answer__submit button" type="submit">Проверить!</button>
+      </form>
+      <div class="output">
+        <p class="output__text">Загаданное число меньше</p>
+        <p class="output__tooltip">и оно четное</p>
+        <p class="output__counter">
+          Попыток: <span class="output__counter-value">5</span>
+        </p>
+      </div>
+      <button class="button button_type_restart" type="button">
+        Начать заново
+      </button>
+    </main>
   </body>
 </html>

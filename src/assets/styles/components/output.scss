@@ -1,0 +1,37 @@
+.output {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  font-size: 26px;
+
+  &__text {
+    margin: 0;
+    color: rgb(112, 160, 30);
+    visibility: hidden;
+
+    &_visible {
+      visibility: visible;
+    }
+  }
+
+  &__tooltip {
+    margin: 0;
+    color: rgb(78, 111, 23);
+    visibility: hidden;
+
+    &_visible {
+      visibility: visible;
+    }
+  }
+
+  &__counter {
+    margin: 0;
+    align-self: flex-end;
+    padding: 0 50px;
+  }
+}
