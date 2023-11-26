@@ -2,7 +2,6 @@ import "../assets/styles/index.scss";
 import {
   answerForm,
   answerInput,
-  answerSubmitButton,
   outputCounter,
   outputCounterValue,
   outputTextElement,
@@ -32,7 +31,6 @@ const startGame = (evt) => {
   outputCounter.classList.add("output__counter_visible");
   setHiddenNumber(evt.target.range.value);
   answerInput.focus();
-  console.log(hiddenNumber);
 };
 
 const checkNumber = (evt) => {
@@ -89,6 +87,7 @@ const initGame = () => {
   rangeForm.classList.add("range_active");
   outputTextElement.classList.remove("output__text_visible");
   outputTooltipElement.classList.remove("output__tooltip_visible");
+  outputCounter.classList.remove("output__counter_visible");
   restartButton.classList.remove("button_active");
 };
 
