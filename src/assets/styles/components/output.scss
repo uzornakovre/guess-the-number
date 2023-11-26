@@ -9,6 +9,11 @@
   width: 100%;
   font-size: 26px;
 
+  @media screen and (max-width: 767px) {
+    width: 85%;
+    font-size: 18px;
+  }
+
   &__text {
     margin: 0;
     color: rgb(112, 160, 30);
@@ -32,7 +37,7 @@
   &__counter {
     margin: 0;
     align-self: flex-end;
-    padding: 0 50px;
+    padding: 20px 50px 0;
     visibility: hidden;
 
     &_visible {

@@ -2,4 +2,10 @@
   font-size: 40px;
   font-weight: 700px;
   text-align: center;
+
+  @media screen and (max-width: 767px) {
+    width: 200px;
+    margin: 30px auto;
+    font-size: 28px;
+  }
 }
