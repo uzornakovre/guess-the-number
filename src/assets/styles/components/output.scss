@@ -33,5 +33,10 @@
     margin: 0;
     align-self: flex-end;
     padding: 0 50px;
+    visibility: hidden;
+
+    &_visible {
+      visibility: visible;
+    }
   }
 }
