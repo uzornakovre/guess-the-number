@@ -1,7 +1,7 @@
 export const content = document.querySelector(".content");
 export const rangeForm = content.querySelector(".range");
 export const rangeInput = rangeForm.querySelector(".range__input");
-export const rangeValueElement = rangeForm.querySelector(".range__value");
+export const rangeValueElement = rangeForm.querySelector(".range__value-max");
 export const answerForm = content.querySelector(".answer");
 export const answerInput = answerForm.querySelector(".answer__input");
 export const outputElement = content.querySelector(".output");
