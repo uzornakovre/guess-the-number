@@ -22,7 +22,7 @@ const setRangeCounter = (evt) => {
 
 // загадываем число в зависимости от диапазона
 const setHiddenNumber = (range) => {
-  hiddenNumber = Math.round(Math.random() * range);
+  hiddenNumber = Math.ceil(Math.random() * range);
   answerInput.max = range; // выставляем аттрибут max равным верхней границы (для валидации)
 };
 
